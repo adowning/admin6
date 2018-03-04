@@ -45,7 +45,14 @@
     },
     "win": {
       "icon": "build/icons/icon.ico",
-        "target": [     {       "target": "nsis",       "arch": [         "x64"      ]     }   ]
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
     },
     "linux": {
       "icon": "build/icons"
