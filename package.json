@@ -1,8 +1,8 @@
 {
   "name": "admin-desktop",
-  "version": "0.0.1",
-  "author": "Alex.Sun <zjsun@126.com>",
-  "description": "AdminLTE with electron-vue",
+  "version": "0.1.0",
+  "author": "Ash Downing <ash@andrewscarpetcleaning.com>",
+  "description": "AndrewsAdminApp",
   "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -44,7 +44,8 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "build/icons/icon.ico",
+        "target": [     {       "target": "nsis",       "arch": [         "x64"      ]     }   ]
     },
     "linux": {
       "icon": "build/icons"
